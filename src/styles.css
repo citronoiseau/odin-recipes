@@ -1,0 +1,68 @@
+body {
+    background: #fcfefe; 
+    font-family: monospace;
+}
+h1 {
+    font-size: 40px;
+}
+
+h1,h2 {
+    text-align: center;
+    color:  #f76b8a;  
+
+}
+.chef-gif {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    height: auto;
+    width: 300px;
+
+}
+.recipes {
+    list-style: none;
+    display: flex;
+    padding: 0; 
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+.recipes li {
+     margin: 20px;
+     text-align: center;
+     
+}
+.recipes li a {
+    color:  #f76b8a;  
+}
+.photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.photo-container img {
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.recipe-photo {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+}
+.description, .ingredients, .steps {
+    margin: 30px;
+    font-size: 20px;
+    color:  #0d5a5a;  
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color:  #f76b8a;  
+}

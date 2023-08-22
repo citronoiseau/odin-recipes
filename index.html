@@ -4,15 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My favorite recipes</title>
+    <link rel="stylesheet" href="src/styles.css" />
 </head>
 <body>
     <h1> Odin Recipes</h1>
-    <img src="https://media2.giphy.com/media/5urlkGNYbW5aGxAvRG/giphy.gif?cid=ecf05e47wi80inpgrro3ydlbaobskk2wdrwwdby43gz5ktd0&ep=v1_gifs_search&rid=giphy.gif&ct=g"alt="Gif of a Chef" />
+    <img class="chef-gif" src="https://media2.giphy.com/media/5urlkGNYbW5aGxAvRG/giphy.gif?cid=ecf05e47wi80inpgrro3ydlbaobskk2wdrwwdby43gz5ktd0&ep=v1_gifs_search&rid=giphy.gif&ct=g"alt="Gif of a Chef" />
     <h2> List of a recipes</h2>
-    <ul> 
-        <li> <a href="recipes/chicken.html">Sweet and Spicy Gochujang Chicken</a></li>
-        <li> <a href="recipes/tortilla.html"> Baked Tortilla Chips</a></li>
-        <li> <a href="recipes/miso.html">Miso Soup </a> </li>
+    <ul  class="recipes"> 
+        <li> 
+            <div class="photo-container">
+            <img src="https://www.allrecipes.com/thmb/wI0cIwz4dUElSwyFTldXambXVls=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7497391-sweet-and-spicy-gochujang-chicken-DDMFS-beauty-4x3-BG-4207-c88bc511fc8346768ee0716378f6089f.jpg" />
+            </div>
+            <a href="recipes/chicken.html"> Gochujang Chicken</a>
+        
+        </li>
+        <li>    
+            <div class="photo-container">
+            <img src="https://www.allrecipes.com/thmb/JG3c952WNOpE8Um_y7hBx0THOiw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/20482-baked-tortilla-chips-DDMFS-4x3-9c0db75a920c4bebbb6166984c8ecf00.jpg" />
+            </div>
+             <a href="recipes/tortilla.html"> Baked Tortilla Chips</a>
+        </li>
+        <li>
+            <div class="photo-container">
+                <img src="https://assets.epicurious.com/photos/63ceb68b7d88c936746ada44/4:3/w_5197,h_3898,c_limit/MisoSoup_RECIPE_012023_46093.jpg"/> 
+            </div>
+             <a href="recipes/miso.html">Miso Soup </a> 
+            </li>
     </ul>
 </body>
 </html>
